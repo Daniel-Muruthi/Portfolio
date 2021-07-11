@@ -2,9 +2,6 @@ body{
     border:2px solid blue;
     margin:0;
 }
-.firstpage{
-
-}
 .navbar{
     display:flex;
     position:fixed;
@@ -13,8 +10,8 @@ body{
     align-items:center;
     background:white;
     box-shadow:0px 0px 4px 1px grey;
-    margin:0px 20px 150px 20px;
-
+    margin:0px 0px 150px 0px;
+    
 }
 .navbar>.logo{
     border:1px solid yellow;
@@ -28,6 +25,12 @@ body{
     align-items:center;
     border:2px solid green;
 }
+/* .firstpage{
+    background:url("./images/mountain.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    align
+} */
 .aboutmecontent{
     padding-bottom:150px;
 }
@@ -36,29 +39,47 @@ body{
     border:2px solid red;
     align-items:center;
 }
+.ppic{
+    border:2px solid white;
+    padding:30px;
+    border-radius:50%;
+    margin:20px;
+    box-shadow: 0px 0px 4px 3px grey;
+}
 .profilebody>.ppic>img{
     height:360px;
     width:360px;
     border-radius:50%;
+    box-shadow:0px 0px 3px 2.5px grey;
 }
+.profilename{
+    border:1px solid purple;
+    text-align:center;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    margin-right:20px;
+    /* margin:30px 130px 30px 130px; */
+}
+.namecircle{
+    border:2px solid gold;
+    width:180px;
+    height:180px;
+    padding:20px;
+    border-radius:50%;
+    text-align:center;
+}
+
 .ppicheader{
     text-align:center;
     border:2px solid gold;
     /* box-sizing: border-box; */
     padding-bottom:30px;
 }
-.profilename{
-    border:1px solid purple;
-    /* margin:30px 130px 30px 130px; */
-}
 .profile{
     display:flex;
     justify-content:center;
     flex-direction:column;
-}
-.ppic{
-    border:2px solid black;
-    /* margin:20px; */
 }
 .ppictext{
     display:flex;
@@ -76,7 +97,7 @@ body{
 }
 .hireload{
     display:flex;
-    
+    justify-content:space-around;
 }
 .hireme{
     background:#F15A29;
