@@ -1,0 +1,473 @@
+body{
+    /* border:2px solid blue; */
+    margin:0;
+    font-family: 'Limelight', cursive;
+}
+.navbar{
+    display:flex;
+    position:fixed;
+    justify-content:space-between;
+    height:100px;
+    align-items:center;
+    background:white;
+    box-shadow:0px 0px 4px 1px grey;
+    margin:0px 0px 150px 0px;
+    
+}
+.navbar>.logo{
+    /* border:1px solid yellow; */
+    width:45%;
+}
+.logo>p{
+    font-size:x-large;
+    font-family: 'Limelight', cursive;
+}
+.navbar>.navtext{
+    display:flex;
+    width:55%;
+    justify-content:space-around;
+    font-size:x-large;
+    align-items:center;
+    /* border:2px solid green; */
+}
+/* .firstpage{
+    background:url("./images/mountain.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    align
+} */
+.aboutmecontent{
+    padding-bottom:150px;
+}
+.profilebody{
+    display:flex;
+    /* border:2px solid red; */
+    align-items:center;
+}
+.picname{
+    display:flex;
+    background-color: grey;
+}
+.ppic{
+    /* border:2px solid white; */
+    padding:30px;
+    border-radius:50%;
+    margin:20px;
+    box-shadow: 0px 0px 4px 3px rgb(255, 251, 255);
+}
+.profilebody>.picname>.ppic>img{
+    height:360px;
+    width:360px;
+    border-radius:50%;
+    box-shadow:0px 0px 3px 2.5px grey;
+}
+.profilename{
+    /* border:1px solid purple; */
+    text-align:center;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    margin-right:20px;
+    /* margin:30px 130px 30px 130px; */
+}
+.namecircle{
+    /* border:2px solid gold; */
+    width:180px;
+    height:180px;
+    padding:20px;
+    border-radius:50%;
+    text-align:center;
+    color:white;
+}
+
+.ppicheader{
+    text-align:center;
+    /* border:2px solid gold; */
+    /* box-sizing: border-box; */
+    padding-bottom:30px;
+    color:#F15A29;
+}
+.profile{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    box-shadow: 0px 0px 1px grey;
+}
+.ppictext{
+    display:flex;
+    justify-content:center;
+    /* border:2px solid black; */
+    text-align:center;
+    align-items:center;
+    width:100%;
+    padding:20px;
+}
+.ppictext>p{
+    /* border:2px solid grey; */
+    width:60%;
+    color:black;
+}
+.hireload{
+    display:flex;
+    justify-content:space-around;
+}
+.hireme{
+    background:#F15A29;
+    border:1px solid #F15A29;
+    border-radius:5px;
+    align-self:center;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    padding:2px;
+    width:10rem;
+}
+.download{
+    background:white;
+    border:1px solid #F15A29;
+    color:#F15A29;
+    border-radius:5px;
+    align-self:center;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    padding:2px;
+    margin:10px;
+    width:15rem;
+}
+.download>p{
+    display:flex;
+    justify-content:center;
+    font-size:larger;
+    font-weight:bold;
+}
+#ppiclinebody{
+    display:flex;
+    justify-content:center;
+    
+}
+.ppicline{
+    margin-top:20px;
+    border:1px solid black;
+    background-color:black;
+    width:80%;
+    
+}
+.intro{
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0px 0px 1px grey;
+}
+.introhead{
+    text-align:center;
+    color:#F15A29;
+}
+.personalinfo>.background{
+    display:flex;
+    /* flex-direction:column; */
+    position:relative;
+    /* border:2px solid gold; */
+   
+}
+.education{
+    display:flex;
+    /* border:2px solid green; */
+    width:33%;
+    padding:30px;
+    flex-direction:column;
+    /* margin-left :auto; */
+    /* margin-right:auto; */
+}
+.eduheader{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.schoolsatt{
+    padding-top:2.5rem;
+    /* border:2px solid blue; */
+    width:100%;
+    text-align:center;
+}
+.gradcap{
+    /* padding-bottom:20px; */
+}
+.schools{
+    display:flex;
+}
+.prischoolbody, .secschoolbody, .higherinstbody{
+    width:100%;
+}
+ .pschools, .sschools, .universities{
+    border:1px solid grey;
+    width:100%;
+    height:75%
+}
+.primaryschool, .secondaryschool, .higherinstitution{
+    border:1px solid grey;
+    width:100%;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    vertical-align: middle;
+
+}
+.work{
+    width:33%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+.workheader{
+    text-align:center;
+    /* border:2px solid grey; */
+}
+.workimg{
+    /* border:2px solid blue; */
+    align-self: center;
+}
+.worktext{
+    width:80%;
+    align-self:center;
+}
+.whyprogramming{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    /* text-align:center; */
+    width:33%;
+    /* align-self:center; */
+}
+.headerimg{
+    display:flex;
+    text-align:center;
+    flex-direction:column;
+}
+.whytext{
+    width:80%;
+    align-self:center;
+}
+.whyheader{
+    /* border:2px solid grey; */
+}
+.projecttitle{
+    text-align:center;
+    /* border:2px solid blueviolet; */
+}
+.projectlist{
+    display:flex;
+    justify-content:space-around;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.footerbody{
+    align-items: center;
+    position:absolute;
+    height:606px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding-bottom: 80px;
+}
+.footer{
+    width:100%;
+    height:100%;
+}
+.subscribe{
+    /* border:2px solid #F15A29 ; */
+    width:90.1%;
+    height:301px;
+    background-color:#F15A29;
+}
+.footerbackground{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.footerimg{
+    background:url("./Assets/backgrounds/subscribe.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    width:100%;
+    height:301px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    color:black;  
+    align-items: center;
+}
+.email{
+    font-size:xx-large;
+    font-weight:bolder;
+    color:black;
+}
+.emailbox{
+    display:flex;
+    justify-content: space-around;
+}
+.youremail{
+    border:2px solid transparent;
+    width:350px;
+    height:fit-content;
+    background-color: grey;
+    opacity:0.4;
+    font-weight:bold;
+    border-radius: 7px;
+    font-size:large;
+}
+.emailsubscribe{
+    border:2px solid #F15A29;
+    width:150px;
+    height:fit-content;
+    background-color:#F15A29;
+    text-align:center;
+    border-radius: 7px;
+    font-size:large;
+    font-weight:bold;
+}
+.subscribe{
+    align-items:center;
+    justify-content: center;
+}
+.menuicon{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.menuword{
+    font-size: xx-large;
+    color:white;
+}
+.restaurantmotto{
+    font-size:x-large;
+    color:white;
+    text-align: center;
+}
+.socials{
+    display:flex;
+    width:270px;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right:auto;
+}
+.copyright{
+    font-size: x-large;
+    color: white;
+    text-align:center;
+}
+.footerbody{
+    align-items: center;
+    position:absolute;
+    height:606px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding-bottom: 80px;
+}
+.footer{
+    width:100%;
+    height:100%;
+}
+.subscribe{
+    border:2px solid #F15A29 ;
+    width:90.1%;
+    height:301px;
+    background-color:#F15A29;
+    align-items:center;
+    justify-content: center;
+}
+.footerbackground{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.footerimg{
+    margin-top:50px;
+    background:url("./images/background.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    width:90.1%;
+    height:301px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    color:white;  
+    align-items: center;
+    /* border:2px solid gold; */
+}
+.email{
+    font-size:xx-large;
+    font-weight:bolder
+}
+.emailbox{
+    display:flex;
+    justify-content: space-around;
+}
+.youremail{
+    border:2px solid transparent;
+    width:350px;
+    height:fit-content;
+    background-color: grey;
+    opacity:0.7;
+    font-weight:bold;
+    border-radius: 7px;
+    font-size:large;
+    margin-right:20px;
+}
+.emailsubscribe{
+    border:2px solid #F15A29;
+    width:150px;
+    height:fit-content;
+    background-color:#F15A29;
+    text-align:center;
+    border-radius: 7px;
+    font-size:large;
+    font-weight:bold;
+}
+.subicon{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.subword{
+    font-size: xx-large;
+    color:white;
+}
+.restaurantmotto{
+    font-size:x-large;
+    color:white;
+    text-align: center;
+}
+.socials{
+    display:flex;
+    width:50%;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right:auto;
+}
+.social>div{
+    border-radius:50%;
+
+}
+.copyright{
+    font-size: x-large;
+    color: white;
+    text-align:center;
+}
+.workskills{
+    display:flex;
+    justify-content:space-around;
+    box-shadow: 0px 0px 1px grey;
+}
+.projecttitle{
+    padding:40px;
+    color:#F15A29;
+}
