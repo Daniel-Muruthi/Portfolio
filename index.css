@@ -1,6 +1,7 @@
 body{
     /* border:2px solid blue; */
     margin:0;
+    font-family: 'Limelight', cursive;
 }
 .navbar{
     display:flex;
@@ -16,6 +17,10 @@ body{
 .navbar>.logo{
     /* border:1px solid yellow; */
     width:45%;
+}
+.logo>p{
+    font-size:x-large;
+    font-family: 'Limelight', cursive;
 }
 .navbar>.navtext{
     display:flex;
