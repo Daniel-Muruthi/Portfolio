@@ -46,7 +46,7 @@ body{
 }
 .picname{
     display:flex;
-    background-color: rgb(0, 0, 0);
+    background-color: grey;
 }
 .ppic{
     /* border:2px solid white; */
@@ -85,6 +85,7 @@ body{
     /* border:2px solid gold; */
     /* box-sizing: border-box; */
     padding-bottom:30px;
+    color:#F15A29;
 }
 .profile{
     display:flex;
@@ -160,6 +161,7 @@ body{
 }
 .introhead{
     text-align:center;
+    color:#F15A29;
 }
 .personalinfo>.background{
     display:flex;
@@ -459,4 +461,13 @@ body{
     font-size: x-large;
     color: white;
     text-align:center;
+}
+.workskills{
+    display:flex;
+    justify-content:space-around;
+    box-shadow: 0px 0px 1px grey;
+}
+.projecttitle{
+    padding:40px;
+    color:#F15A29;
 }
