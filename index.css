@@ -143,23 +143,97 @@ body{
     background-color:black;
     width:80%;
 }
+.intro{
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+}
 .introhead{
     text-align:center;
 }
 .personalinfo>.background{
     display:flex;
-    flex-direction:column;
+    /* flex-direction:column; */
+    position:relative;
+    border:2px solid gold;
    
 }
-.personalinfo>.background>.education{
+.education{
     display:flex;
     border:2px solid green;
-    justify-content:space-around;
-    width:100%;
-    /* justify-content:center; */
+    width:33%;
+    padding:30px;
+    flex-direction:column;
+    /* margin-left :auto; */
+    /* margin-right:auto; */
 }
-.primaryschool, .pschools, .secondaryschool, .sschools, .higherinstitution, .universities{
+.eduheader{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.schoolsatt{
+    padding-top:2rem;
+    border:2px solid blue;
+    width:100%;
+    text-align:center;
+}
+.schools{
+    display:flex;
+}
+.prischoolbody, .secschoolbody, .higherinstbody{
+    width:100%;
+}
+ .pschools, .sschools, .universities{
     border:1px solid grey;
     width:100%;
-    height:50%
+    height:75%
+}
+.primaryschool, .secondaryschool, .higherinstitution{
+    border:1px solid grey;
+    width:100%;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    vertical-align: middle;
+
+}
+.work{
+    width:33%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+.workheader{
+    text-align:center;
+    border:2px solid grey;
+}
+.workimg{
+    border:2px solid blue;
+    align-self: center;
+}
+.worktext{
+    width:80%;
+    align-self:center;
+}
+.whyprogramming{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    /* text-align:center; */
+    width:33%;
+    /* align-self:center; */
+}
+.headerimg{
+    display:flex;
+    text-align:center;
+    flex-direction:column;
+}
+.whytext{
+    width:80%;
+    align-self:center;
+}
+.whyheader{
+    border:2px solid grey;
 }
